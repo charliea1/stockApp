@@ -1,0 +1,73 @@
+
+
+body{
+    background-color: black;
+    color:grey;
+}
+#logo{
+    float:left;
+    background-color:mediumseagreen;
+    width:20%;
+    border:1px solid mediumseagreen;
+    height: 100px;
+    color:black;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    transform: skewX(-20deg);
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+}
+#nav-border{
+    color:mediumseagreen;
+    background-color: black;
+    width:75%;
+    height:60px;
+    float:left;
+    transform: skewX(-20deg);
+    position: relative;
+    margin-left: 7px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-top: 15px;
+}
+#nav{
+    background-color: black;
+    color:mediumseagreen;
+    width:75%;
+    height:40px;
+    float:left;
+    transform: skewX(-20deg);
+    border:1px solid mediumseagreen;
+    position: relative;
+    margin-left:-12px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#nav .btn{
+    border:1px solid black;
+    background-color:black;
+    color:mediumseagreen;
+    width: 32%;
+    border-radius: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    
+}
+
+#nav .btn:hover{
+    background-color: mediumseagreen;
+    color:black;
+     border:1px solid mediumseagreen; 
+
+}
+
+.clear{
+    clear:both;
+}
+#buffer1{
+    height:30px;
+}
